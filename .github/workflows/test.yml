@@ -62,4 +62,4 @@ jobs:
 
       - name: Run tests
 
-        run: npm jest tests/url-checker.test.ts
+        run: npx jest tests/url-checker.test.ts
