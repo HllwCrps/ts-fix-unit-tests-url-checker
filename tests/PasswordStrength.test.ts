@@ -1,6 +1,6 @@
-import {calculatePasswordStrength} from "../src/PasswordStrenght";
+import {calculatePasswordStrength} from "../src/PasswordStrength";
 
-describe('Calculate Password Strenght', () => {
+describe('Calculate Password Strength', () => {
     test('returns "Very Weak" for short or simple passwords', async () => {
         expect(calculatePasswordStrength('123')).toBe('Very Weak');
         expect(calculatePasswordStrength('123456789')).toBe('Very Weak');
